@@ -20,7 +20,8 @@ export default class Fullstack extends Component
                         <div className="px-6 py-4">
                             <div className="font-bold text-xl mb-2">Yay!Walker</div>
                             <p className="text-gray-700 text-base">
-                                User submitted walking tours. Backend using Ruby on Rails and Frontend crafted in React. A live version can be found <a
+                                User submitted walking tours. Backend
+                                using Ruby on Rails and Frontend crafted in React. A live version can be found <a
                                     className="font-bold"
                                     href="https://aqueous-fortress-10362.herokuapp.com/">here</a> </p>
                         </div>
@@ -70,7 +71,7 @@ export default class Fullstack extends Component
                             <p className="text-gray-700 text-base">
                                 UX and SEI Collaboration, taking UX Wireframes and building a functional prototype with full CRUD as a team. See the live version <a
                                     className="font-bold"
-                                    href="http://njtransitmonkeys.herokuapp.com/">here</a> </p>
+                                    href="https://nj-transit-mobile.herokuapp.com/">here</a> </p>
                         </div>
                         <div className="px-6 py-4">
                             <span className="hashtag">#express</span>
