@@ -16,7 +16,7 @@ export default function Layout(props)
                 {props.children}
             </main>
             <footer className="p-4 mb-24 sm:mb-4">
-                <h5>© 2020 Trevor Smith-Holbourn</h5>
+                <h3>© 2020 Trevor Smith-Holbourn</h3>
             </footer>
             <nav className="p-4 flex min-w-full justify-around fixed bottom-0 text-xs sm:text-lg bg-gray-400 rounded-tl-lg">
                 <NavLink activeClassName="bg-red-300"
