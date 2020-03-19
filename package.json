@@ -14,7 +14,8 @@
     "tailwindcss": "^1.2.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "buildcss": "postcss src/css/tailwindinput.css -o src/css/style.css",
+    "start": "PORT=8000 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
