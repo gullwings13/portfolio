@@ -23,8 +23,8 @@ export default class Contact extends React.Component
                     method="POST"
                 >
                     Please contact me using the below form. I will respond as quickly as I can. Thank you!
-                <div>
-                        <div className="w-64 my-4">
+                <div className="min-w-full pr-4">
+                        <div className="sm:w-3/4 my-4">
                             <label>Your Email:</label>
                             <input
                                 className="bg-white focus:outline-none focus:shadow-outline border border-gray-300 rounded-lg py-2 px-4 block w-full appearance-none leading-normal"
@@ -32,7 +32,7 @@ export default class Contact extends React.Component
                                 type="email"
                                 name="email" />
                         </div>
-                        <div className="w-64 my-4">
+                        <div className="sm:w-3/4 my-4">
                             <label>Your Message:</label>
                             <textarea rows="3"
                                 className="bg-white focus:outline-none focus:shadow-outline border border-gray-300 rounded-lg py-2 px-4 block w-full appearance-none leading-normal"

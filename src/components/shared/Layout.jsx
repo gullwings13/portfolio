@@ -18,7 +18,7 @@ export default function Layout(props)
             <footer className="p-4 mb-24 sm:mb-4">
                 <h5>© 2020 Trevor Smith-Holbourn</h5>
             </footer>
-            <nav className="p-4 flex min-w-full justify-around fixed bottom-0 text-lg bg-gray-400 rounded-tl-lg">
+            <nav className="p-4 flex min-w-full justify-around fixed bottom-0 text-xs sm:text-lg bg-gray-400 rounded-tl-lg">
                 <NavLink activeClassName="bg-red-300"
                     exact to="/"
                     className="hover:text-red-400 btn btn-gray text-center active:bg-red-300 focus:bg-red-300">Home</NavLink>

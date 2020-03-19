@@ -23,9 +23,10 @@ export default class Unity extends Component
                         <div className="px-6 py-4">
                             <div className="font-bold text-xl mb-2">Space Jump Fun</div>
                             <p className="text-gray-700 text-base">
-                                A simple platformer using interfaces. Give it a try on <a
+                                A simple platformer making use of c# interfaces. Give it a try on <a
                                     className="font-bold"
-                                    href="https://tsh.itch.io/space-jump-fun"><span className="text-purple-600 hover:underline">itch.io <i className="fab fa-itch-io text-purple-600"></i></span></a> </p>
+                                    href="https://tsh.itch.io/space-jump-fun">
+                                    <span className="text-purple-600 hover:underline">itch.io <i className="fab fa-itch-io text-purple-600"></i></span></a> </p>
                         </div>
                         <div className="px-6 py-4">
                             <span className="hashtag">#csharp</span>
@@ -39,15 +40,16 @@ export default class Unity extends Component
                         <div className="px-6 py-4">
                             <div className="font-bold text-xl mb-2">Polymino Gardens</div>
                             <p className="text-gray-700 text-base">
-                                A puzzle game featuring an animated UI. Download for PC and MAC at <a
+                                A puzzle game featuring an animated UI and procedural gardens. Download for PC and MAC at <a
                                     className="font-bold"
-                                    href="https://tsh.itch.io/space-jump-fun"><span className="text-purple-600 hover:underline">itch.io
-                                    <i className="fab fa-itch-io text-purple-600"></i></span></a> </p>
+                                    href="https://tsh.itch.io/polyminogardens">
+                                    <span className="text-purple-600 hover:underline">itch.io <i className="fab fa-itch-io text-purple-600"></i></span></a> </p>
                         </div>
                         <div className="px-6 py-4">
                             <span className="hashtag">#csharp</span>
                             <span className="hashtag">#unity</span>
-                            <span className="hashtag">#interfaces</span>
+                            <span className="hashtag">#ui</span>
+                            <span className="hashtag">#procedural</span>
                         </div>
                     </div>
 
@@ -58,13 +60,13 @@ export default class Unity extends Component
                             <p className="text-gray-700 text-base">
                                 This VR prototype explored various combat mechanics. Watch a gameplay video on <a
                                     className="font-bold"
-                                    href="https://tsh.itch.io/space-jump-fun"><span className="text-purple-600 hover:underline">itch.io
-                                    <i className="fab fa-itch-io text-purple-600"></i></span></a> </p>
+                                    href="https://tsh.itch.io/vrprototype">
+                                    <span className="text-purple-600 hover:underline">itch.io <i className="fab fa-itch-io text-purple-600"></i></span></a> </p>
                         </div>
                         <div className="px-6 py-4">
                             <span className="hashtag">#csharp</span>
                             <span className="hashtag">#unity</span>
-                            <span className="hashtag">#interfaces</span>
+                            <span className="hashtag">#vr</span>
                         </div>
                     </div>
 
@@ -73,15 +75,15 @@ export default class Unity extends Component
                         <div className="px-6 py-4">
                             <div className="font-bold text-xl mb-2">Witchsword</div>
                             <p className="text-gray-700 text-base">
-                                The beginnings of an action RPG and exploring VR elements <a
+                                The beginnings of an action RPG exploring VR elements <a
                                     className="font-bold"
-                                    href="https://tsh.itch.io/space-jump-fun"><span className="text-purple-600 hover:underline">itch.io
-                                    <i className="fab fa-itch-io text-purple-600"></i></span></a> </p>
+                                    href="https://tsh.itch.io/witchswordv2">
+                                    <span className="text-purple-600 hover:underline">itch.io <i className="fab fa-itch-io text-purple-600"></i></span></a> </p>
                         </div>
                         <div className="px-6 py-4">
                             <span className="hashtag">#csharp</span>
                             <span className="hashtag">#unity</span>
-                            <span className="hashtag">#interfaces</span>
+                            <span className="hashtag">#vr</span>
                         </div>
                     </div>
 
