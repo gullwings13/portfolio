@@ -6,11 +6,13 @@ export default function Layout(props)
     return (
         <React.Fragment>
             <header className="bg-gray-200 rounded-bl-lg shadow ">
-                <div className="flex flex-col sm:flex-row">
-                    <h1 className="font-sans text-5xl sm:text-5xl md:text-6xl ml-2">Trevor </h1>
-                    <h1 className="font-sans text-5xl sm:text-5xl md:text-6xl ml-2"> Smith-Holbourn</h1>
-                </div>
-                <h2 className="ml-4 text-lg sm:text-2xl">Software Engineer | Gameplay Programmer </h2>
+                <NavLink className="group" exact to="/">
+                    <div className="flex flex-col sm:flex-row">
+                        <h1 className="font-sans text-5xl sm:text-5xl md:text-6xl ml-2 group-hover:text-red-500">Trevor </h1>
+                        <h1 className="font-sans text-5xl sm:text-5xl md:text-6xl ml-2 group-hover:text-red-500"> Smith-Holbourn</h1>
+                    </div>
+                    <h2 className="ml-4 text-lg sm:text-2xl group-hover:text-red-500">Software Engineer | Gameplay Programmer </h2>
+                </NavLink>
             </header>
             <main className=" p-4 rounded-bl-lg shadow">
                 {props.children}

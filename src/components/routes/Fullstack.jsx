@@ -36,7 +36,7 @@ export default class Fullstack extends Component
                         <div className="px-6 py-4">
                             <div className="font-bold text-xl mb-2">Rick and Morty Trading Game</div>
                             <p className="text-gray-700 text-base">
-                                Trade exotic goods while you explore the Rick and Morty Multiverse, try it out<a
+                                Trade exotic goods while you explore the Rick and Morty Multiverse, try it out <a
                                     className="font-bold"
                                     href="http://trev-rm-trading-game.surge.sh/">here</a> </p>
                         </div>

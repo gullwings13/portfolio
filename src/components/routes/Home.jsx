@@ -17,7 +17,7 @@ export default class Home extends Component
                 <div className="mt-4">
                     You can download my resume here:
                      <div>
-                        <a href="https://trevorsmithholbourn.xyz/resume.pdf"><i class="far fa-file-pdf text-6xl hover:text-gray-400"></i></a>
+                        <a href="https://trevorsmithholbourn.xyz/resume.pdf"><i className="far fa-file-pdf text-6xl hover:text-gray-400"></i></a>
                     </div>
                 </div>
             </div>
