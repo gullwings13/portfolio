@@ -14,6 +14,12 @@ export default class Home extends Component
                         <a href="https://www.linkedin.com/in/trevor-smith-holbourn/"><i className="fab fa-linkedin text-6xl hover:text-gray-400 ml-3"></i></a>
                     </div>
                 </div>
+                <div className="mt-4">
+                    You can download my resume here:
+                     <div>
+                        <a href="https://trevorsmithholbourn.xyz/resume.pdf"><i class="far fa-file-pdf text-6xl hover:text-gray-400"></i></a>
+                    </div>
+                </div>
             </div>
         )
     }
